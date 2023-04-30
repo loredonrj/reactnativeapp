@@ -5,8 +5,8 @@ const Stack = createNativeStackNavigator();
 
 import { View, Text } from 'react-native'
 import React from 'react'
-import HomeScreen from './HomeScreen';
-import RestaurantScreen from './RestaurantScreen';
+import HomeScreen from './screens/HomeScreen';
+import RestaurantScreen from './screens/RestaurantScreen';
 
 export default function Navigation() {
   return (
